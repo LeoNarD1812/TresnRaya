@@ -81,7 +81,7 @@ public class MainTresenraya extends javax.swing.JFrame implements ActionListener
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 48)); // NOI18N
         jLabel1.setText("TIC TAC TOE");
 
-        jLabel2.setText("LEONARDO JESUS H.A.");
+        jLabel2.setText("LEONARDO JESUS HUAMAN ARHUATA");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -91,8 +91,8 @@ public class MainTresenraya extends javax.swing.JFrame implements ActionListener
                 .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(168, 168, 168))
+                .addComponent(jLabel2)
+                .addGap(106, 106, 106))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -421,7 +421,7 @@ public class MainTresenraya extends javax.swing.JFrame implements ActionListener
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTablerasult;
+    public javax.swing.JTable jTablerasult;
     private javax.swing.JPanel jpanelttt;
     private javax.swing.JPanel panelfondoj;
     private javax.swing.JLabel playerlabel1;
