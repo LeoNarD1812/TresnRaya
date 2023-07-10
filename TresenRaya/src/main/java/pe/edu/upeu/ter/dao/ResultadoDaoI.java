@@ -9,7 +9,7 @@ import pe.edu.upeu.ter.modelo.ResultadoTO;
 
 public interface ResultadoDaoI {
     
-    public List listarResultados();
+    public List<ResultadoTO> listarResultados();
     public int crearResultado(ResultadoTO re);
     public int actualizarResultado(ResultadoTO re);
     public void borrarTodosLosResultados();
